@@ -1,9 +1,22 @@
 import "../styles/components/UIWork.scss";
 import UIWorkContent from "./UIWork-Content";
+import AOS from "aos";
+import { useEffect } from "react";
 
 export default function UIWork() {
+  const handleScroll = function () {
+    AOS.init({ duration: 2000 });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="work" id="work">
+    <div className="work" id="work" data-aos="fade-up">
       <div className="work-text">
         <h2 className="work-text-name">Work</h2>
         <div className="work-content">

@@ -1,8 +1,20 @@
 import "../styles/components/UIAbout.scss";
+import AOS from "aos";
+import { useEffect } from "react";
 
 export default function About() {
+  const handleScroll = function () {
+    AOS.init({ duration: 2000 });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <div className="about" id="about">
+    <div className="about" id="about" data-aos="fade-up">
       <div className="about-text">
         <h2 className="about-text-name">About</h2>
         <p className="about-text-paragraph">
