@@ -3,7 +3,7 @@ import { UIButton } from "./UIButton";
 
 export default function UIContact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h2 className="contact-text-name">Get in touch</h2>
       <p className="contact-text-paragraph">
         I am currently active in a job search. If you are interested in my

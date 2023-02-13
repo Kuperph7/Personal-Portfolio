@@ -12,17 +12,17 @@ export default function Header() {
         <nav className="header-nav">
           <ul>
             <li>
-              <a href="#home" className="home">
+              <a href="#about" className="home">
                 About
               </a>
             </li>
             <li>
-              <a href="#servicios" className="relleno">
+              <a href="#work" className="menu">
                 Work
               </a>
             </li>
             <li>
-              <a href="#acerca" className="relleno">
+              <a href="#contact" className="menu">
                 Contact
               </a>
             </li>

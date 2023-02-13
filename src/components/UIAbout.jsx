@@ -2,7 +2,7 @@ import "../styles/components/UIAbout.scss";
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-text">
         <h2 className="about-text-name">About</h2>
         <p className="about-text-paragraph">

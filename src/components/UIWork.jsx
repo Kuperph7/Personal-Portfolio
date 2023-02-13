@@ -3,7 +3,7 @@ import UIWorkContent from "./UIWork-Content";
 
 export default function UIWork() {
   return (
-    <div className="work">
+    <div className="work" id="work">
       <div className="work-text">
         <h2 className="work-text-name">Work</h2>
         <div className="work-content">

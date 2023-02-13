@@ -4,6 +4,7 @@ import UIAbout from "../components/UIAbout";
 import UIWork from "../components/UIWork";
 import Footer from "../components/Footer";
 import UIContact from "../components/UIContact";
+import "../styles/global.scss";
 
 function App() {
   return (
