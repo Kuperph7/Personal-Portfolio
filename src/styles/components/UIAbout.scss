@@ -1,0 +1,64 @@
+@import "../variables.scss";
+
+.about {
+  font-family: "M PLUS 1 Code";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 220px 458px 0 458px;
+
+  &-text {
+    font-size: 24px;
+    font-weight: 700px;
+
+    & h2 {
+      margin: 0;
+    }
+
+    &-name {
+      font-family: "inter";
+      font-weight: 600px;
+      color: $color-text;
+      margin-top: 24px;
+    }
+
+    & p {
+      color: $color-text;
+    }
+
+    &-paragraph {
+      margin-top: 32px;
+      font-size: 24px;
+      font-weight: 400px;
+      width: 600px;
+      color: $color-text;
+    }
+  }
+  &-image {
+    & img {
+      width: 500px;
+      margin-right: 175px;
+    }
+  }
+}
+
+.about-img img {
+  width: 300px;
+  filter: grayscale(100%) blur(500px);
+  transition: all 0.3s linear;
+}
+
+.about-img img:hover {
+  width: 300px;
+  filter: none;
+}
+
+.about-skills ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+  grid-auto-rows: minmax(40px, auto);
+  color: $green;
+  font-size: 16px;
+}

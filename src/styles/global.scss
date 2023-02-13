@@ -1,0 +1,7 @@
+@import "./variables.scss";
+
+* {
+  scroll-behavior: smooth;
+  font-family: "M PLUS 1 Code", "Inter", sans-serif;
+  background: $primary-blue;
+}

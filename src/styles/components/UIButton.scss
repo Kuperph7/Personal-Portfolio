@@ -1,0 +1,26 @@
+@import "../variables.scss";
+
+.info-button-general {
+  display: flex;
+}
+
+.info-button-decoration {
+  width: 120px;
+  height: 40px;
+  background-color: $green;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: $primary-blue;
+  font-family: $typo;
+  z-index: 100;
+}
+
+.info-button-decoration:hover {
+  transition: all 0.3s linear;
+  background-color: $primary-blue;
+  color: $green;
+}

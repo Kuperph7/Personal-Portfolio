@@ -1,0 +1,56 @@
+@import "../variables.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  font-family: $typo;
+
+  & .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-left: 154px;
+
+    & h2 {
+      color: $green;
+      font-weight: 700;
+      font-size: 40px;
+    }
+  }
+
+  & .header-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 175px;
+    align-items: center;
+
+    & a {
+      text-decoration: none;
+    }
+  }
+
+  & .home {
+    color: $color-text;
+    font-weight: 400;
+  }
+
+  & .home:hover {
+    transition: all 0.2s linear;
+    color: $green;
+    font-weight: 400;
+  }
+
+  & .relleno {
+    color: $color-text;
+    font-weight: 400;
+  }
+
+  & .relleno:hover {
+    transition: all 0.2s linear;
+    color: $green;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,25 @@
+@import "../variables.scss";
+
+.work {
+  font-family: "M PLUS 1 Code";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 220px 458px 0 458px;
+
+  &-text {
+    font-size: 24px;
+    font-weight: 700px;
+
+    & h2 {
+      margin: 0;
+    }
+
+    &-name {
+      font-family: "inter";
+      font-weight: 600px;
+      color: $color-text;
+      margin-top: 24px;
+    }
+  }
+}

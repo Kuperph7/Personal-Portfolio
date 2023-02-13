@@ -1,0 +1,55 @@
+@import "../variables.scss";
+
+.hero {
+  font-family: "M PLUS 1 Code";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 128px;
+  margin-left: 458px;
+
+  &-text {
+    font-size: 40px;
+    font-weight: 700px;
+
+    & h2 {
+      margin: 0;
+    }
+
+    &-name {
+      font-family: "inter";
+      font-weight: 600px;
+      color: $color-text;
+      margin-top: 24px;
+    }
+
+    &-present {
+      color: $green;
+      font-size: 20px;
+    }
+
+    &-paragraph {
+      margin-top: 32px;
+      font-size: 24px;
+      font-weight: 400px;
+      width: 700px;
+      color: $color-text;
+    }
+  }
+  &-image {
+    & img {
+      width: 500px;
+      margin-right: 175px;
+    }
+  }
+}
+
+.contact-hero {
+  text-decoration: none;
+  color: $green;
+  transition: all 0.4s linear;
+}
+
+.contact-hero:hover {
+  color: rgb(0, 255, 247);
+}

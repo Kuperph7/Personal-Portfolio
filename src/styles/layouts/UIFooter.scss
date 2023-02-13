@@ -1,0 +1,14 @@
+@import "../variables.scss";
+
+.footer {
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 175px;
+  padding: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
