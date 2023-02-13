@@ -35,18 +35,13 @@
       color: $color-text;
     }
   }
-  &-image {
-    & img {
-      width: 500px;
-      margin-right: 175px;
-    }
-  }
 }
 
 .about-img img {
   width: 300px;
-  filter: grayscale(100%) blur(500px);
+  filter: grayscale(100%) blur(100px);
   transition: all 0.3s linear;
+  z-index: 99;
 }
 
 .about-img img:hover {

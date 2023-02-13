@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0px 458px 0 458px;
-  padding-top: 220px;
+  padding-top: 200px;
 
   &-text {
     font-size: 24px;
@@ -23,4 +23,10 @@
       margin-top: 24px;
     }
   }
+}
+
+.work-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }

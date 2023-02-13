@@ -23,7 +23,7 @@ export default function UIContact() {
         profile, do not hesitate to contact me. Best regards
       </p>
       <div className="contact-button">
-        <UIButton name="Contact me" url="/" />
+        <UIButton name="Contact me" url="mailto:kuper7ph@gmail.com" />
       </div>
     </div>
   );

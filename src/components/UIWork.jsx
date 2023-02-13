@@ -2,6 +2,7 @@ import "../styles/components/UIWork.scss";
 import UIWorkContent from "./UIWork-Content";
 import AOS from "aos";
 import { useEffect } from "react";
+import { UIButton } from "./UIButton";
 
 export default function UIWork() {
   const handleScroll = function () {
@@ -38,6 +39,12 @@ export default function UIWork() {
             description="A giff search engine that returns any giff you want to search for in the search engine."
             url="https://giffy-rbfzxuy4z-kuperph7.vercel.app"
             img="https://mir-s3-cdn-cf.behance.net/project_modules/fs/2a0fef163700839.63ea7ef89e7d3.png"
+          />
+        </div>
+        <div className="work-button">
+          <UIButton
+            name="Show more"
+            url="https://github.com/Kuperph7?tab=repositories"
           />
         </div>
       </div>

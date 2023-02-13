@@ -4,7 +4,7 @@ export default function UIWorkContent({ name, description, url, img }) {
   return (
     <div className="work-content">
       <p className="work-content-title">{name}</p>
-      <p>{description}</p>
+      <p className="work-content-desc">{description}</p>
       <a href={url}>
         <img src={img} alt="" />
       </a>

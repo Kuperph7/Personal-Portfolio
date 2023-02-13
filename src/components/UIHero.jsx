@@ -9,7 +9,7 @@ export default function Hero() {
         <p className="hero-text-paragraph">
           I am a web developer passionate about technology and learning more
           every day. If you are interested in my profile, do not hesitate to{" "}
-          <a href="/" className="contact-hero">
+          <a href="mailto:kuper7ph@gmail.com" className="contact-hero">
             contact me.
           </a>
         </p>
