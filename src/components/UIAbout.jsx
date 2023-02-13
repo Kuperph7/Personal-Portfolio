@@ -13,6 +13,7 @@ export default function About() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <div className="about" id="about" data-aos="fade-up">
       <div className="about-text">
