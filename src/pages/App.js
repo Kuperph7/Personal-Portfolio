@@ -10,11 +10,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <UIHero />
+      {/* <UIHero />
       <UIAbout />
       <UIWork />
       <UIContact />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
