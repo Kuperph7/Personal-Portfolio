@@ -59,6 +59,20 @@
   font-size: 16px;
 }
 
+@media (max-width: 1528px) {
+  .about {
+    margin: 0px 200px 0 200px;
+  }
+
+  .about-img img {
+    width: 250px;
+  }
+
+  .about-img img:hover {
+    width: 250px;
+  }
+}
+
 @media (max-width: 700px) {
   .about {
     font-family: "M PLUS 1 Code";
@@ -109,19 +123,5 @@
     grid-auto-rows: minmax(20px, auto);
     color: $green;
     font-size: 12px;
-  }
-}
-
-@media (max-width: 1528px) {
-  .about {
-    margin: 0px 200px 0 200px;
-  }
-
-  .about-img img {
-    width: 250px;
-  }
-
-  .about-img img:hover {
-    width: 250px;
   }
 }

@@ -54,6 +54,12 @@
   color: rgb(0, 255, 247);
 }
 
+@media (max-width: 1512px) {
+  .hero {
+    margin-left: 200px;
+  }
+}
+
 @media (max-width: 700px) {
   .hero {
     font-family: "M PLUS 1 Code";
@@ -92,11 +98,5 @@
         color: $color-text;
       }
     }
-  }
-}
-
-@media (max-width: 1512px) {
-  .hero {
-    margin-left: 200px;
   }
 }
