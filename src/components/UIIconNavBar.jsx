@@ -2,15 +2,15 @@ import "../styles/layouts/UIIconNavBar.scss";
 import { useRef } from "react";
 
 export default function UIIconNavBar() {
-  const navRef = useRef();
+  const animationRef = useRef();
 
   const animation = () => {
-    navRef.current.classList.toggle("open");
+    animationRef.current.classList.toggle("open");
   };
 
   return (
     <div>
-      <div class="icon nav-icon-5" ref={navRef} onClick={animation}>
+      <div class="icon nav-icon-5" ref={animationRef} onClick={animation}>
         <span></span>
         <span></span>
         <span></span>
