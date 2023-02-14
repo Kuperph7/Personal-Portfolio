@@ -34,8 +34,13 @@
       align-items: center;
       width: 230px;
       filter: none;
-      transition: all 0.4s linear;
       border-radius: 16px;
+    }
+
+    & img:hover {
+      width: 230px;
+      filter: none;
+      box-shadow: 0 0 20px 5px #243e66;
     }
 
     &-title {

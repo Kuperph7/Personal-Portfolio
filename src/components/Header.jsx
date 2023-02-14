@@ -19,17 +19,17 @@ export default function Header() {
         <nav className="header-nav">
           <ul ref={navRef}>
             <li>
-              <a href="#about" className="home">
+              <a href="#about" className="home" ref={navRef}>
                 About
               </a>
             </li>
             <li>
-              <a href="#work" className="menu">
+              <a href="#work" className="menu" ref={navRef}>
                 Work
               </a>
             </li>
             <li>
-              <a href="#contact" className="menu">
+              <a href="#contact" className="menu" ref={navRef}>
                 Contact
               </a>
             </li>
