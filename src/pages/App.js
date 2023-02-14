@@ -14,7 +14,7 @@ function App() {
       <UIAbout />
       <UIWork />
       <UIContact />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
