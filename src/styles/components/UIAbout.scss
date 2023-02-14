@@ -111,3 +111,17 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 1528px) {
+  .about {
+    margin: 0px 200px 0 200px;
+  }
+
+  .about-img img {
+    width: 250px;
+  }
+
+  .about-img img:hover {
+    width: 250px;
+  }
+}

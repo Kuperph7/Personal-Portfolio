@@ -103,3 +103,15 @@
     }
   }
 }
+
+@media (max-width: 1512px) {
+  .header {
+    & .header-logo {
+      padding-left: 80px;
+    }
+
+    & .header-nav ul {
+      margin-right: 80px;
+    }
+  }
+}
