@@ -32,3 +32,38 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 390px) {
+  .contact {
+    font-family: "M PLUS 1 Code";
+    padding-top: 100px;
+    margin-bottom: 100px;
+
+    &-text {
+      &-name {
+        font-size: 24px;
+        font-family: "inter";
+        font-weight: 600px;
+        color: $color-text;
+        margin-top: 24px;
+        text-align: center;
+      }
+
+      &-paragraph {
+        text-align: center;
+        margin-top: 24px;
+        font-size: 12px;
+        font-weight: 400px;
+        width: 248px;
+        color: $color-text;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .contact-button {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}

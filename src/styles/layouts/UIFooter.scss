@@ -12,3 +12,16 @@
   justify-content: end;
   gap: 20px;
 }
+
+@media (max-width: 390px) {
+  .footer {
+    margin-top: 100px;
+    padding: 0;
+    margin-right: 0px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+  }
+}

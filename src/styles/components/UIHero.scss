@@ -53,3 +53,44 @@
 .contact-hero:hover {
   color: rgb(0, 255, 247);
 }
+
+@media (max-width: 390px) {
+  .hero {
+    font-family: "M PLUS 1 Code";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 67px;
+
+    &-text {
+      font-size: 40px;
+      font-weight: 700px;
+
+      & h2 {
+        margin: 0;
+      }
+
+      &-name {
+        font-family: "inter";
+        font-weight: 600px;
+        color: $color-text;
+        font-size: 24px;
+        margin-top: 8px;
+      }
+
+      &-present {
+        color: $green;
+        font-size: 16px;
+      }
+
+      &-paragraph {
+        margin-top: 16px;
+        font-size: 12px;
+        font-weight: 400px;
+        width: 255px;
+        color: $color-text;
+      }
+    }
+  }
+} ;

@@ -26,3 +26,26 @@
     color: $color-text;
   }
 }
+
+@media (max-width: 390px) {
+  .work-content {
+    margin-top: 50px;
+    & img {
+      align-items: center;
+      width: 230px;
+      filter: none;
+      transition: all 0.4s linear;
+      border-radius: 16px;
+    }
+
+    &-title {
+      color: $green;
+      font-size: 16px;
+    }
+
+    &-desc {
+      color: $color-text;
+      font-size: 12px;
+    }
+  }
+}

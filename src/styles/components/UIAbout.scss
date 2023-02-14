@@ -58,3 +58,55 @@
   color: $green;
   font-size: 16px;
 }
+
+@media (max-width: 390px) {
+  .about {
+    font-family: "M PLUS 1 Code";
+    display: inline-block;
+    margin: 0px 67px 0 67px;
+    padding-top: 80px;
+
+    &-text {
+      font-size: 24px;
+
+      & h2 {
+        margin: 0;
+      }
+
+      &-name {
+        font-family: "inter";
+        color: $color-text;
+        margin-top: 20px;
+        font-size: 20px;
+      }
+
+      & p {
+        color: $color-text;
+      }
+
+      &-paragraph {
+        margin-top: 16px;
+        font-size: 12px;
+        width: 258px;
+        color: $color-text;
+      }
+    }
+  }
+
+  .about-img img {
+    margin-top: 30px;
+    width: 128px;
+    filter: none;
+    z-index: 20;
+  }
+
+  .about-skills ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-auto-rows: minmax(20px, auto);
+    color: $green;
+    font-size: 12px;
+  }
+}
