@@ -24,7 +24,7 @@ export default function UIWork() {
           <UIWorkContent
             name="Web developer portfolio"
             description="A portfolio for a senior web developer using technologies such as
-        Next.Js, Typescript, Sass, Kontent(CMS), JQuery and others."
+        Next.Js, Typescript, Sass, Kontent(CMS) and others."
             url="https://mataias.dev"
             img="https://mir-s3-cdn-cf.behance.net/project_modules/fs/76557e163698357.63ea775231dc1.png"
           />
