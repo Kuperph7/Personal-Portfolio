@@ -31,7 +31,7 @@ export default function UIWork() {
           <UIWorkContent
             name="Landing page for a dental center"
             description="A landing page for a dental center. Project based on react"
-            url="https://mk-odontologia-integral-hblkfd0kz-kuperph7.vercel.app/"
+            url="https://mk-odontologia-integral.vercel.app/"
             img="https://mir-s3-cdn-cf.behance.net/project_modules/fs/97df30163700595.63ea7e2476801.png"
           />
           <UIWorkContent
