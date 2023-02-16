@@ -46,6 +46,10 @@
     margin: 0px 67px 0 67px;
     padding-top: 200px;
 
+    &-content {
+      margin-top: 10px;
+    }
+
     &-text {
       font-size: 24px;
       font-weight: 700px;
@@ -55,6 +59,7 @@
       }
 
       &-name {
+        font-size: 24px;
         font-family: "inter";
         font-weight: 600px;
         color: $color-text;
