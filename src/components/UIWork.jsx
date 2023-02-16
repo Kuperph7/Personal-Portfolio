@@ -37,7 +37,7 @@ export default function UIWork() {
           <UIWorkContent
             name="Giff search engine"
             description="A giff search engine that returns any giff you want to search for in the search engine."
-            url="https://giffy-rbfzxuy4z-kuperph7.vercel.app"
+            url="https://dogiffy.vercel.app"
             img="https://mir-s3-cdn-cf.behance.net/project_modules/fs/2a0fef163700839.63ea7ef89e7d3.png"
           />
         </div>
