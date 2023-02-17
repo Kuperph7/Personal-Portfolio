@@ -35,7 +35,7 @@ export default function Header() {
             </li>
             <UIButton
               name="Resume / CV"
-              url="https://media.licdn.com/dms/image/C4D2DAQGRhGSecdcLMw/profile-treasury-document-images_1280/1/1670339059165?e=1677110400&v=beta&t=658XNOyJ3cLD_Hk6u-x1Hr8NrcXa-dzq8ReMF2JFr5k"
+              url="https://media.licdn.com/dms/image/C4D2DAQEhpicknATbDA/profile-treasury-document-images_800/1/1676659423046?e=1677715200&v=beta&t=sMgw09Dz9Hp3A_wU662Zu52QJvRf2pn5A9LKx81pq0o"
             />
           </ul>
         </nav>
